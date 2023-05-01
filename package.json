@@ -13,7 +13,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^4.3.2"
+    "vite": "^4.3.2",
+    "react-icons": "^4.7.1",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.5",
