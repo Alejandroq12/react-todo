@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.4;
+  color: #000;
+  background: #f2f2f2;
+  height: 100vh;
+  font-weight: 400;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 5rem 20px 3rem;
+}
+
+.todos {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px 0 rgba(70, 70, 70, 0.38);
+  justify-content: space-around;
+  background: #fff;
+  font-size: 1rem;
+}
+
+.input-text {
+  width: 85%;
+  padding-right: 5px;
+  padding-left: 10px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.input-text::placeholder {
+  color: #999;
+}
+
+.input-submit {
+  background: #4a90e2;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.input-text,
+.input-submit {
+  height: 45px;
+  outline: none;
+  border: none;
+}
+
+.submit-warning {
+  font-size: 13px;
+  color: red;
+  margin-top: 5px;
+  display: block;
+}
