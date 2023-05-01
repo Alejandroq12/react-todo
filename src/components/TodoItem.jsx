@@ -4,11 +4,9 @@ import { useState, useRef } from 'react';
 import { FaTrash } from 'react-icons/fa';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { AiFillEdit } from 'react-icons/ai';
-// eslint-disable-next-line import/extensions
 import { useTodosContext } from '../context/TodosContext';
 import styles from '../styles/TodoItem.module.css';
 
-// eslint-disable-next-line react/prop-types
 const TodoItem = ({ itemProp }) => {
   const [editing, setEditing] = useState(false);
 
@@ -46,7 +44,6 @@ const TodoItem = ({ itemProp }) => {
       <div className={styles.content} style={viewMode}>
         <input
           type="checkbox"
-          // eslint-disable-next-line react/prop-types
           checked={itemProp.completed}
           onChange={() => handleChange(itemProp.id)}
         />

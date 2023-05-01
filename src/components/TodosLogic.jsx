@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import InputTodo from './InputTodo';
 import TodosList from './TodosList';
 

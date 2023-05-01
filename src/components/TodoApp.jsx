@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import Header from './Header';
 import TodosLogic from './TodosLogic';
 

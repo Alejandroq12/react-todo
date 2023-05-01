@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import TodoItem from './TodoItem';
 import { useTodosContext } from '../context/TodosContext';
 
