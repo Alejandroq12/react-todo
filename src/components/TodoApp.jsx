@@ -1,7 +1,9 @@
+/* eslint-disable import/extensions */
+import Header from '@/components/Header.jsx';
+
 const TodoApp = () => (
   <>
-    <h1>Hello world!</h1>
-    <p>I am in a React component!</p>
+    <Header />
   </>
 );
 export default TodoApp;
