@@ -4,7 +4,7 @@ import TodoItem from '@/components/TodoItem';
 const TodosList = ({ todosProps }) => (
   <ul>
     {todosProps.map((todo) => (
-      <TodoItem itemProp={todo} />
+      <TodoItem key={todo.id} itemProp={todo} />
     ))}
   </ul>
 );
